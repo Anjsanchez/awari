@@ -1,0 +1,39 @@
+.formList-container {
+  padding: 10px;
+}
+.formList-container * {
+  font-family: "Poppins", sans-serif;
+}
+
+.formList-container_wrap:first-child {
+  padding-top: 0px;
+}
+.formList-container_wrap {
+  padding-top: 15px;
+}
+
+.formList-divider:last-child {
+  visibility: hidden;
+}
+
+.formList-header_span {
+  font-family: "Poppins", sans-serif;
+  margin: 0px 0px 0.35em;
+  font-weight: 500;
+  font-size: 1.275rem;
+  line-height: 1.57;
+  color: rgb(23, 43, 77);
+}
+
+.formList-subheader_span {
+  font-weight: 400;
+  font-size: 0.825rem;
+  line-height: 1.43;
+  color: rgb(107, 119, 140);
+}
+
+.formList-button_wrapper {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,92 @@
+/* sideMenuBar Style */
+
+.sideMenuBar_mainContainer {
+  padding: 16px;
+}
+
+.sideMenuBar_mainContainer * {
+  font-family: "Poppins", sans-serif;
+}
+.sideMenu_container-title {
+  box-sizing: border-box;
+  list-style: none;
+  color: #41526d;
+  font-size: 0.85rem;
+  line-height: 2.5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sideMenu_container_iconLeft,
+.sideMenu_container_iconLeftChild {
+  color: rgb(107, 119, 140);
+  display: flex;
+  align-items: center;
+}
+
+.sideMenu_subNav_icon {
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+}
+.sideMenu_container_iconLeft span {
+  padding-left: 1rem;
+}
+
+.sideMenu_container_iconRight {
+  display: flex;
+  align-items: center;
+}
+
+.sideMenu_ul,
+.sideMenu_ul_child {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sideMenu_button:hover {
+  background-color: red;
+}
+
+.sideMenu_button_child {
+  padding-left: 60px;
+}
+
+.sideMenu_ul_child {
+  transform: translate(0);
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.sideMenu_ul_child.hidden {
+  height: 0;
+  transform: translate(9999px);
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s height 0s;
+}
+
+.on-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.on-scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.on-scrollbar::-webkit-scrollbar {
+  width: 3px !important;
+  background-color: transparent;
+}
+
+.on-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #eeeeee;
+}
+
+.subChild_active {
+  background-color: #f8f9fe !important;
+  font-weight: 500;
+  color: rgb(86, 100, 210) !important;
+}

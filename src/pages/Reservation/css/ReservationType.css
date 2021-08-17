@@ -1,0 +1,30 @@
+.reservationtype-container,
+.reservationtype__select,
+.ant-select .reservationtype__select {
+  width: 100%;
+}
+
+.reservationtype__select {
+  margin-top: 10px;
+}
+
+.ant-select-selector {
+  height: 50px !important;
+  padding-top: 8px !important;
+  line-height: 45px !important;
+}
+
+.remark-input__wrapper {
+  max-width: 50%;
+}
+.remark__wrapper {
+  margin-top: 10px;
+}
+
+.remark__wrapper label {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #484848;
+  font-weight: 400;
+}

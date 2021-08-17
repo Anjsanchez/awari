@@ -1,0 +1,27 @@
+.toolbar-mainContainer {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.toolbar-header_span {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.167;
+  color: rgb(23, 43, 77);
+}
+
+.toolbar-header_search {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4375em;
+  box-sizing: border-box;
+  cursor: text;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
